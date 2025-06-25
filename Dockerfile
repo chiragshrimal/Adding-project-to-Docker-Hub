@@ -13,6 +13,10 @@
 # node:22-alpine  is the image present in docker hub
 FROM node:22-alpine
 
+# if we want any other installation then we can do here 
+# like 
+# RUN install go language
+
 # konse working directory  m source code aayege 
 WORKDIR /app
 
